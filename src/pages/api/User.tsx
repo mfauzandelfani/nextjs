@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { domain } from '@config/config'
+import { domain } from '../../config/config'
 import { getCookie } from 'cookies-next'
 
 const signup = async (params:any)=>{

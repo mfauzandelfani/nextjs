@@ -113,7 +113,7 @@ export default function FormikRegionEdit(props: any) {
         </div>
       </div>
       <div>
-        <button type="submit" onClick={() => formik.handleSubmit()}>
+        <button type="submit" onClick={ formik.handleSubmit}>
           Simpan
         </button>
         <button type="submit" onClick={() => props.setDisplay(false)}>

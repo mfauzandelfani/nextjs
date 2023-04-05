@@ -50,7 +50,7 @@ const deleted = async (id: any) => {
 const updatePhoto = async (data: any) => {
   const id = parseInt(data.get("id"));
   try {
-    const result = await axios.put("http://localhost:3002/region/" + id, data);
+    const result = await axios.put("http://localhost:3002/region/upload/" + id, data);
     return result;
   } catch (error) {
     return await error;

@@ -49,10 +49,8 @@ const AddRegion = (state: any, action: any) => {
 };
 
 const DelRegion = (state: any, action: any) => {
-  const { payload } = action;
   return {
     ...state,
-    reg: payload,
   };
 };
 
